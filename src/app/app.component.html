@@ -1,0 +1,49 @@
+<ibm-accordion>
+  <ibm-accordion-item
+    expanded="true"
+    title="Section 1 title"
+    (selected)="selectedAccordian($event)"
+  >
+    <div style="width: 300px;">
+      <ibm-dropdown
+        [label]="labelDropdown"
+        [helperText]="helperTextDropdown"
+        [size]="sizeDropdown"
+        [invalid]="invalidDropdown"
+        [invalidText]="invalidTextDropdown"
+        [theme]="themeDropdown"
+        placeholder="Select Dropdown"
+        [disabled]="disabledDropdown"
+        (selected)="selectedDropdown($event)"
+        (onClose)="onCloseDropdown($event)"
+      >
+        <ibm-dropdown-list [items]="itemsDropdown"></ibm-dropdown-list>
+      </ibm-dropdown>
+    </div>
+  </ibm-accordion-item>
+
+  <ibm-accordion-item
+    title="Section 2 title"
+    (selected)="selectedAccordian($event)"
+    >Lorem ipsum dolor sit amet, \ consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore \ et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation \ ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.</ibm-accordion-item
+  >
+  <ibm-accordion-item
+    title="Section 3 title"
+    (selected)="selectedAccordian($event)"
+    >Lorem ipsum dolor sit amet, \ consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore \ et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation \ ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.</ibm-accordion-item
+  >
+  <ibm-accordion-item
+    title="Section 4 title"
+    (selected)="selectedAccordian($event)"
+    >Lorem ipsum dolor sit amet, \ consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore \ et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation \ ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.</ibm-accordion-item
+  >
+</ibm-accordion>
