@@ -1,2 +1,2 @@
 # carbon-design-angular
-Created with CodeSandbox
+Created to understand Carbon Design Compnents for Angular
